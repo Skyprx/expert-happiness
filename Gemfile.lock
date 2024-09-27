@@ -492,7 +492,7 @@ GEM
       parser (>= 3.3.1.0)
     ruby-macho (4.0.1)
     ruby-mysql (4.1.0)
-    ruby-prof (1.4.2)
+    ruby-prof (1.7.0)
     ruby-progressbar (1.13.0)
     ruby-rc4 (0.1.5)
     ruby2_keywords (0.0.5)
@@ -587,7 +587,7 @@ DEPENDENCIES
   rspec-rails
   rspec-rerun
   rubocop
-  ruby-prof (= 1.4.2)
+  ruby-prof (= 1.7.0)
   simplecov (= 0.18.2)
   test-prof
   timecop
