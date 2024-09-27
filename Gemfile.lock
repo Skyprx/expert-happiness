@@ -565,7 +565,7 @@ GEM
       activesupport (>= 4.2, < 8.0)
     xmlrpc (0.3.3)
       webrick
-    yard (0.9.36)
+    yard (0.9.37)
     zeitwerk (2.6.17)
 
 PLATFORMS
