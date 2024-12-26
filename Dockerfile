@@ -1,4 +1,4 @@
-FROM ruby:3.3.5-alpine3.20 AS builder
+FROM ruby:3.4.1-alpine3.20 AS builder
 LABEL maintainer="Rapid7"
 
 ARG BUNDLER_CONFIG_ARGS="set no-cache 'true' set system 'true' set without 'development test coverage'"
