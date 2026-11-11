@@ -45,7 +45,7 @@ PATH
       metasploit_data_models
       metasploit_payloads-mettle (= 1.0.31)
       mqtt
-      msgpack (~> 1.6.0)
+      msgpack (~> 1.8.0)
       mutex_m
       nessus_rest
       net-imap
@@ -271,13 +271,7 @@ GEM
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-
-    macaddr (1.7.2)
-      systemu (~> 2.6.5)
     memory_profiler (1.1.0)
-
-    memory_profiler (1.0.1)
-
     metasm (1.0.5)
     metasploit-concern (5.0.2)
       activemodel (~> 7.0)
@@ -317,7 +311,7 @@ GEM
     mini_portile2 (2.8.7)
     minitest (5.25.1)
     mqtt (0.6.0)
-    msgpack (1.6.1)
+    msgpack (1.8.7)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
@@ -525,12 +519,7 @@ GEM
     sshkey (3.0.0)
     strptime (0.2.5)
     swagger-blocks (3.0.0)
-
-    systemu (2.6.5)
     test-prof (1.4.2)
-
-    test-prof (1.3.3)
-
     thin (1.8.2)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -569,13 +558,8 @@ GEM
       activesupport (>= 4.2, < 8.0)
     xmlrpc (0.3.3)
       webrick
-
     yard (0.9.37)
-    zeitwerk (2.6.17)
-
-    yard (0.9.36)
     zeitwerk (2.6.18)
-
 
 PLATFORMS
   ruby
@@ -594,12 +578,8 @@ DEPENDENCIES
   rspec-rails
   rspec-rerun
   rubocop
-
-  ruby-prof (= 1.4.2)
-  simplecov (= 0.22.0)
   ruby-prof (= 1.7.0)
-  simplecov (= 0.18.2)
-
+  simplecov (= 0.22.0)
   test-prof
   timecop
   yard
