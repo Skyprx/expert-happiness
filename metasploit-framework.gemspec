@@ -79,7 +79,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'metasploit_payloads-mettle', '1.0.31'
   # Needed by msfgui and other rpc components
   # Locked until build env can handle newer version. See: https://github.com/msgpack/msgpack-ruby/issues/334
-  spec.add_runtime_dependency 'msgpack', '~> 1.6.0'
+  spec.add_runtime_dependency 'msgpack', '~> 1.8.0'
   # get list of network interfaces, like eth* from OS.
   spec.add_runtime_dependency 'network_interface'
   # NTLM authentication
